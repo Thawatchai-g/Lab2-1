@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Lab 2-1</legend>    
+                <fieldset>
+                    <legend>1.ชื่อเต็ม/ย่อของสาขาวิชา:</legend>
+                    <select name="dept">
+                        <option value="">--Please choose an option--</option>
+                        <option value="CS">วิทยาการคอมพิวเตอร์(CS)</option>
+                        <option value="IC">เคมีอุตสาหกรรม(IC)</option>
+                        <option value="MA">คณิตศาสตร์ประยุกต(MA)</option>
+                        <option value="IMI">ฟิสิกส์อุตสาหกรรมและอุปกรณ์การแพทย์(IMI)</option>
+                        <option value="AS">สถิติประยุกต์(AS)</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2.จำนวนเงินที่จะโอน:</legend>
+                    <input type="text" pattern="\d+" maxlength="7"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3.อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย:</legend>
+                    <samall>จากมากไปน้อยโดยการเรียงลำดับจากบนลงล่าง</samall><br>
+                    <div>
+                        <input type="radio" id="แกง" name="food1" value="แกง">
+                        <label for="แกง">แกง</label>
+                        <input type="radio" id="ผัด" name="food2" value="ผัด">
+                        <label for="ผัด">ผัด</label>
+                        <input type="radio" id="ยำ" name="food3" value="ยำ">
+                        <label for="ยำ">ยำ</label>
+                        <input type="radio" id="ทอด" name="food4" value="ทอด">
+                        <label for="ทอด">ทอด</label>
+                        <input type="radio" id="ปิ้งย่าง" name="food5" value="ปิ้งย่าง">
+                        <label for="ปิ้งย่าง">ปิ้งย่าง</label>
+                    </div><br>
+                    <div>
+                        <input type="radio" id="แกง" name="food1" value="แกง">
+                        <label for="แกง">แกง</label>
+                        <input type="radio" id="ผัด" name="food2" value="ผัด">
+                        <label for="ผัด">ผัด</label>
+                        <input type="radio" id="ยำ" name="food3" value="ยำ">
+                        <label for="ยำ">ยำ</label>
+                        <input type="radio" id="ทอด" name="food4" value="ทอด">
+                        <label for="ทอด">ทอด</label>
+                        <input type="radio" id="ปิ้งย่าง" name="food5" value="ปิ้งย่าง">
+                        <label for="ปิ้งย่าง">ปิ้งย่าง</label>
+                    </div><br>
+                    <div>
+                        <input type="radio" id="แกง" name="food1" value="แกง">
+                        <label for="แกง">แกง</label>
+                        <input type="radio" id="ผัด" name="food2" value="ผัด">
+                        <label for="ผัด">ผัด</label>
+                        <input type="radio" id="ยำ" name="food3" value="ยำ">
+                        <label for="ยำ">ยำ</label>
+                        <input type="radio" id="ทอด" name="food4" value="ทอด">
+                        <label for="ทอด">ทอด</label>
+                        <input type="radio" id="ปิ้งย่าง" name="food5" value="ปิ้งย่าง">
+                        <label for="ปิ้งย่าง">ปิ้งย่าง</label>
+                    </div><br>
+                    <div>
+                        <input type="radio" id="แกง" name="food1" value="แกง">
+                        <label for="แกง">แกง</label>
+                        <input type="radio" id="ผัด" name="food2" value="ผัด">
+                        <label for="ผัด">ผัด</label>
+                        <input type="radio" id="ยำ" name="food3" value="ยำ">
+                        <label for="ยำ">ยำ</label>
+                        <input type="radio" id="ทอด" name="food4" value="ทอด">
+                        <label for="ทอด">ทอด</label>
+                        <input type="radio" id="ปิ้งย่าง" name="food5" value="ปิ้งย่าง">
+                        <label for="ปิ้งย่าง">ปิ้งย่าง</label>
+                    </div><br>
+                    <div>
+                        <input type="radio" id="แกง" name="food1" value="แกง">
+                        <label for="แกง">แกง</label>
+                        <input type="radio" id="ผัด" name="food2" value="ผัด">
+                        <label for="ผัด">ผัด</label>
+                        <input type="radio" id="ยำ" name="food3" value="ยำ">
+                        <label for="ยำ">ยำ</label>
+                        <input type="radio" id="ทอด" name="food4" value="ทอด">
+                        <label for="ทอด">ทอด</label>
+                        <input type="radio" id="ปิ้งย่าง" name="food5" value="ปิ้งย่าง">
+                        <label for="ปิ้งย่าง">ปิ้งย่าง</label>
+                    </div><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4.ค่าไฟฟ้า 3 เดือนที่ผ่านมา:</legend>
+                    <label>ค่าไฟเดือนที่ 1</label>
+                    <input type="text" pattern="(\d+|\d+[.]\d\d)"><br><br>
+                    <label>ค่าไฟเดือนที่ 2</label>
+                    <input type="text" pattern="(\d+|\d+[.]\d\d)"><br><br>
+                    <label>ค่าไฟเดือนที่ 3</label>
+                    <input type="text" pattern="(\d+|\d+[.]\d\d)"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>5.รหัสบัตรประชาชน:</legend>
+                    <input type="text" pattern="(\d{13}|\d[-]\d{4}[-]\d{5}[-]\d)"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>6.ความพึงพอใจของหนังสือเล่มนี้:</legend>
+                    <label>มากสุด = 5 และ น้อยสุด = 1</label><br>
+                    <div>
+                        <input type="radio" id="5" name="rate" value="5">
+                        <label for="5">5</label>
+                    </div>
+                  
+                    <div>
+                        <input type="radio" id="4" name="rate" value="4">
+                        <label for="4">4</label>
+                    </div>
+                  
+                    <div>
+                        <input type="radio" id="3" name="rate" value="3">
+                        <label for="3">3</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="2" name="rate" value="2">
+                        <label for="2">2</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="1" name="rate" value="1">
+                        <label for="1">1</label>
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>7.อาการป่วย:</legend>
+                    <textarea style="width:250px; height:50px;"></textarea></textarea><br>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>8.ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่:</legend>
+                    <input type="radio" name="dicission" >
+                    <label>เคย</label>
+                    <input type="radio" name="dicission">
+                    <label>ไม่เคย</label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>9.รหัสผ่าน:</legend>
+                    <input type="text" pattern="[A-Za-z0-9]+"><br><br>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>10.เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน:</legend>
+                    <input type="time"min="09:00" max="18:00">
+                    <small>เวลาเริ่มเข้าเรียน</small><br>
+                    <input type="time"min="09:00" max="18:00">
+                    <small>เวลาสิ้นสุดการเรียน</small><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>11.วันเวลาที่ต้องไปพบแพทย์:</legend>
+                    <input type="date"><br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
